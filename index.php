@@ -7,6 +7,13 @@
     <title>Template - 214228 Web User Interface Development</title>
     <!-- CSS -->
     <link rel='stylesheet' href='public/css/main.css'>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,52 +35,59 @@
                         <option>Room size &gt;= 32 m2</option>
                     </select>
                 </aside>
-                <div class='product__list layout__row'>
-                    <div class='product__card'>
-                        <img class='product__card__image' src='public/img/xiaomi_xiaomi_air_purifier_3h.jpeg'>
-                        <div class='product__card__body'>
-                            <h2>Mi Air Purifier 3H</h2>
-                            <div class='product__card__body__content'>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut ultrices ullamcorper enim, eu commodo lorem venenatis non.
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class='product__list layout__row'>
+                            <div class='product__card'>
+                                <img class='product__card__image' src='public/img/xiaomi_xiaomi_air_purifier_3h.jpeg'>
+                                <div class='product__card__body'>
+                                    <h2>Mi Air Purifier 3H</h2>
+                                    <div class='product__card__body__content'>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut ultrices ullamcorper enim, eu commodo lorem venenatis non.
+                                    </div>
+                                </div>
+                                <footer class='product__card__footer'>
+                                    <button class='product__button'>Add to cart</button>
+                                </footer>
                             </div>
                         </div>
-                        <footer class='product__card__footer'>
-                            <button class='product__button'>Add to cart</button>
-                        </footer>
                     </div>
-                </div>
-                <div class='product__list layout__row'>
-                    <div class='product__card'>
-                        <img class='product__card__image' src='public/img/xiaomi_xiaomi_air_purifier_3h.jpeg'>
-                        <div class='product__card__body'>
-                            <h2>Mi Air Purifier 3H</h2>
-                            <div class='product__card__body__content'>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut ultrices ullamcorper enim, eu commodo lorem venenatis non.
+                    <div class="grid-item">
+                        <div class='product__list layout__row'>
+                            <div class='product__card'>
+                                <img class='product__card__image' src='public/img/xiaomi_xiaomi_air_purifier_3h.jpeg'>
+                                <div class='product__card__body'>
+                                    <h2>Mi Air Purifier 3H</h2>
+                                    <div class='product__card__body__content'>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut ultrices ullamcorper enim, eu commodo lorem venenatis non.
+                                    </div>
+                                </div>
+                                <footer class='product__card__footer'>
+                                    <button class='product__button'>Add to cart</button>
+                                </footer>
                             </div>
                         </div>
-                        <footer class='product__card__footer'>
-                            <button class='product__button'>Add to cart</button>
-                        </footer>
                     </div>
-                </div>
-                <div class='product__list layout__row'>
-                    <div class='product__card'>
-                        <img class='product__card__image' src='public/img/xiaomi_xiaomi_air_purifier_3h.jpeg'>
-                        <div class='product__card__body'>
-                            <h2>Mi Air Purifier 3H</h2>
-                            <div class='product__card__body__content'>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut ultrices ullamcorper enim, eu commodo lorem venenatis non.
+                    <div class="grid-item">
+                        <div class='product__list layout__row'>
+                            <div class='product__card'>
+                                <img class='product__card__image' src='public/img/xiaomi_xiaomi_air_purifier_3h.jpeg'>
+                                <div class='product__card__body'>
+                                    <h2>Mi Air Purifier 3H</h2>
+                                    <div class='product__card__body__content'>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Ut ultrices ullamcorper enim, eu commodo lorem venenatis non.
+                                    </div>
+                                </div>
+                                <footer class='product__card__footer'>
+                                    <button class='product__button'>Add to cart</button>
+                                </footer>
                             </div>
                         </div>
-                        <footer class='product__card__footer'>
-                            <button class='product__button'>Add to cart</button>
-                        </footer>
                     </div>
                 </div>
-            </div>
         </section>
     </div>
     <footer class='page__footer'>
